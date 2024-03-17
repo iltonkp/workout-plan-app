@@ -6,7 +6,7 @@ import { Slot } from 'expo-router'
 export default function Layout(): React.ReactElement {
   return (
     <>
-      <StatusBar />
+      <StatusBar barStyle="light-content" />
       <Slot />
     </>
   )

@@ -31,6 +31,18 @@ export default function TabLayouts(): React.ReactElement {
             ),
           }}
         />
+        <Tabs.Screen
+          name="exercises"
+          options={{
+            tabBarIcon: ({ size, color }) => (
+              <MaterialCommunityIcons
+                name="clipboard-text-outline"
+                size={size}
+                color={color}
+              />
+            ),
+          }}
+        />
       </Tabs>
     </View>
   )
